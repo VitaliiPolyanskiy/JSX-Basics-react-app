@@ -4,8 +4,10 @@ type SqrtProps = {
 
 export function Sqrt({ number }: SqrtProps) {
   return (
-    <h2 style={{ color: "red", fontFamily: "Verdana" }}>
-      Вычисление квадратного корня из числа {number} = {Math.sqrt(number)}
-    </h2>
+    <div className="card accent-card">
+      <h2>
+        Обчислення квадратного кореня з числа <span>{number}</span> = {Math.sqrt(number)}
+      </h2>
+    </div>
   );
 }

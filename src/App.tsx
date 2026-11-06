@@ -1,13 +1,15 @@
 import "./App.css";
-
-import { Sqrt } from "./components/Sqrt.tsx";
-import { StudentInfo } from "./components/StudentInfo.tsx";
+import { Sqrt } from "./components/Sqrt";
+import { StudentInfo } from "./components/StudentInfo";
 
 export default function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <Sqrt number={9} />
-      <StudentInfo />
-    </div>
+    <main className="app-container">
+      <h1 className="main-title">React Практикум</h1>
+      <div className="components-wrapper">
+        <Sqrt number={9} />
+        <StudentInfo />
+      </div>
+    </main>
   );
 }
