@@ -1,12 +1,9 @@
-type SqrtProps = {
-  number: number;
-};
 
-export function Sqrt({ number }: SqrtProps) {
+export function Sqrt() {
   return (
     <div className="card accent-card">
       <h2>
-        Обчислення квадратного кореня з числа <span>{number}</span> = {Math.sqrt(number)}
+        Обчислення квадратного кореня з числа <span>{9}</span> = {Math.sqrt(9)}
       </h2>
     </div>
   );

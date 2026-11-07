@@ -7,7 +7,7 @@ export default function App() {
     <main className="app-container">
       <h1 className="main-title">React Практикум</h1>
       <div className="components-wrapper">
-        <Sqrt number={9} />
+        <Sqrt />
         <StudentInfo />
       </div>
     </main>
